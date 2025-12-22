@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-Netflix = pd.read_csv("D:/web dev/web dev assignment/netflix_titles.csv")
+Netflix = pd.read_csv("netflix_titles.csv")
 
 print("Printing first 10 rows to become familiar with the dataset.\n".upper())
 print(Netflix.head(10))
@@ -110,6 +110,7 @@ plt.figure(figsize=(6,4))
 sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm')  #.corr() - calculates relationships, heatmap - visualizes them, annot=True - shows numbers, cmap - sets color scheme
 plt.title("Correlation Heatmap of Numerical Features")
 plt.show()
+
 
 
 
