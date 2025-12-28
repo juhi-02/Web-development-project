@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: rgb(45, 43, 43);
+    margin: 0;
+}
+
+.logo{
+   font-family: "Roboto Condensed", sans-serif;
+   font-size: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.navbar{
+    padding: 2px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup {
+    border: 2px solid rgb(57, 56, 56);
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: rgb(45, 43, 43);
+    cursor: pointer;
+}
+
+.Lang{
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    background: transparent;
+    font-size: 14px;
+
+}
+
+.image{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* hero layout */
+.shuru {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.shuru-content {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shuru-text {
+    width: 50%;
+}
+
+.main-image {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+   width: 765px;
+   height: 544px;
+}
+
+/* buttons row */
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* typography cleanup */
+.description {
+    margin: 20px 0;
+    color: #5e6282;
+    line-height: 1.6;
+}
+
+
+.tagline{
+    font-size: 14px;
+    justify-content: space-between;
+    color: #ff7b54;
+    font-weight: 800;
+}
+
+.mainline{
+    font-size: 70px;
+    font-family: "Lora", serif;
+    color: #181E4B;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -4%;
+}
+
+.btn-primary {
+    background: #ff7b54;
+    border: none;
+    padding: 12px 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.play-demo {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.play-circle {
+    width: 45px;
+    height: 45px;
+    background: #f35f45;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+
+.service1{
+    text-align: center;
+    color: #5e6282;
+}
+
+.service2{
+    font-size: 30px;
+    font-family: "Lora", serif;
+    justify-content: space-between;
+    color: #091733;
+    font-weight: 800;
+    text-align: center;
+}
+
+.service-card{
+    font-size: 15px;
+    font-family: "Lora", serif;
+    justify-content: space-between;
+    color: #091733;    
+}
+
+.service-grid{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 40px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h3 {
+    margin: 20px 0 12px;
+    color: #0d2558;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #5e6282;
+    line-height: 1.6;
+}
+
+
+.destination-grid{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.step{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.front-girl {
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 320px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.newsletter-box {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  background: #f8f7fd;
+  border-radius: 30px;
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.newsletter-box h2 {
+  font-size: 24px;
+  color: #4b4b6a;
+  margin-bottom: 40px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.newsletter-form input {
+  width: 300px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.newsletter-form button {
+  background: #ff7a50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.send-icon {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  background: #6c63ff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .container.shuru-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .shuru-text,
+    .main-image {
+        width: 100%;
+    }
+
+    .main-image img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
